@@ -12,8 +12,8 @@ const dynamoClient = process.env.IS_OFFLINE
 	: new AWS.DynamoDB.DocumentClient();
 
 let oauthClient = new OAuthClient({
-	clientId: 'ABmOqbXnlmXT8cLFaYpvAI2abduBkWxdA6CDTGLSnMlNp1CVBS',
-	clientSecret: '5EPp6LFoPFP5qQwHkenOEeU3gYbDsSeDM5BlNnzj',
+	clientId: '<client id>',
+	clientSecret: '<client secret>',
 	environment: 'sandbox',
 	redirectUri: 'http://localhost:3000/dev/callback',
 });
